@@ -1,0 +1,1160 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-size: 0.85em;
+    font-family: Arial;
+    position: relative;
+    color: Gray;
+}
+
+a {
+    color: #808080;
+}
+
+strong {
+    color: #5B5B5B;
+}
+
+.comapnyheader {
+    height: 5.0625rem;
+    float: left;
+    width: 100%;
+}
+
+.companyheadercontent {
+    height: 5.3125rem;
+    width: 61.25rem;
+    margin: auto;
+    border-bottom: 0rem solid #D0D0D0;
+}
+
+.companyimagelogo {
+    height: 5.0625rem;
+    width: 4.3125rem;
+    overflow: hidden;
+    float: left;
+}
+
+.shorty_tabs_master {
+    margin-top: 0.3125rem;
+    margin-right: 0.1875rem;
+    height: 1.5rem;
+    width: 40.625rem;
+    float: right;
+    display: inline;
+}
+
+.shortybutton {
+    float: right;
+    margin-right: 0.0625rem;
+    margin-right: 0.1875rem;
+}
+
+.companytabs {
+    height: 2.4375rem;
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.625rem;
+}
+
+.companytabscontent {
+    height: 2.125rem;
+    width: 60.875rem;
+    margin: auto;
+    background-color: White;
+    border: 0.0625rem solid #dfdfdf;
+    padding: 0.125rem;
+    padding-bottom: 0rem;
+    padding-top: 0.1875rem;
+}
+
+ul.ul_first_level {
+    margin: 0;
+    padding: 0;
+}
+
+ul.ul_first_level li {
+    list-style-type: none;
+    float: left;
+    width: 7.25rem;
+    height: 1.875rem;
+    text-align: center;
+    line-height: 1.875rem;
+    position: relative;
+    display: block;
+    margin-left: 0.3125rem;
+    z-index: 70000;
+    font-size: 0.90em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+}
+
+.ul_first_level li a {
+    text-decoration: none;
+    color: #1C1C1C;
+    height: 1.875rem;
+    width: 9.375rem;
+}
+
+.ul_first_level li:hover {
+    background-color: #34B9E4;
+}
+
+ul.ul_first_level li ul.ul_second_level {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 50000;
+    display: block;
+    left: 0rem;
+    top: 1.875rem;
+}
+
+.ul_second_level {
+    visibility: hidden;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 2.1875rem;
+    z-index: 1;
+}
+
+li:hover ul.ul_second_level {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.ul_first_level li ul.ul_second_level li {
+    list-style-type: none;
+    text-align: left;
+    text-indent: 0.4375rem;
+    width: 12.5rem;
+    height: 1.875rem;
+    font-size: 0.95em;
+    font-weight: bold;
+    display: block;
+    opacity: 0.75;
+    filter: Alpha(opacity=75);
+    border-bottom: 0.0625rem solid #ffffff;
+    margin-top: 0rem;
+    background-color: #27AFE8;
+    background-image: none;
+    line-height: 1.875rem;
+    border-radius: 0.5625rem;
+}
+
+ul.ul_first_level li ul.ul_second_level a {
+    text-decoration: none;
+}
+
+ul.ul_first_level a {
+    text-decoration: none;
+}
+
+.companybanner {
+    Height: 23.125rem;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.25rem;
+}
+
+.companybannercontent {
+    Height: 23.125rem;
+    width: 61.25rem;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.companybanimage {
+    height: 23.125rem;
+    width: 40.625rem;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+#slideshow {
+    height: 23.125rem;
+    width: 40.625rem;
+    z-index: -405;
+    background-image: url(./slideshow1.png);
+    animation: slideshow_index 20s infinite linear;
+}
+
+@keyframes slideshow_index {
+    20% {
+        background-image: url(./slideshow2.png);
+    }
+
+    40% {
+        background-image: url(./slideshow3.png);
+    }
+
+    60% {
+        background-image: url(./slideshow4.png);
+    }
+
+    80% {
+        background-image: url(./slideshow5.png);
+    }
+}
+
+#slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    height: 23.125rem;
+    width: 40.625rem;
+    padding: 0;
+    z-index: -465;
+}
+
+.bannerthreeinone {
+    height: 23.125rem;
+    width: 20.625rem;
+    overflow: hidden;
+    float: left;
+}
+
+.bannerthreeinoneindivisual {
+    height: 7.6875rem;
+    width: 20.625rem;
+    overflow: hidden;
+    float: left;
+    background-color: #34B9E4;
+}
+
+.companybannerindivisualheader {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: left;
+    height: 3.75rem;
+    width: 15.625rem;
+    float: left;
+    overflow: hidden;
+    line-height: 1.875rem;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.companybannerindivisualfooter {
+    height: 2rem;
+    width: 19.375rem;
+    overflow: hidden;
+    float: left;
+    padding-right: 0.25rem;
+}
+
+.companybannerindivisualfooter a {
+    float: right;
+    display: block;
+    height: 1.625rem;
+    width: 6.875rem;
+    background-color: White;
+    font-weight: bold;
+    color: #34B9E4;
+    font-size: 0.85em;
+    line-height: 1.625rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0.1875rem 0.1875rem 0.0625rem #808080;
+    text-decoration: none;
+}
+
+.companyshadow {
+    height: 1.375rem;
+    width: 100%;
+    float: left;
+}
+
+.divforindexcontent {
+    height: 42.5rem;
+    width: 100%;
+    float: left;
+    margin-top: 0.25rem;
+}
+
+.divforindexcontentinside {
+    height: 42.5rem;
+    width: 61.25rem;
+    margin: auto;
+}
+
+.bigLestIndexDiv {
+    Height: 42.5rem;
+    width: 42.5rem;
+    float: left;
+}
+
+.divindexleftheader {
+    Height: 4.375rem;
+    width: 42.5rem;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    text-align: left;
+    line-height: 1.875rem;
+    color: #5B5B5B;
+}
+
+.divindexleftheadercontent {
+    height: 16.5rem;
+    width: 40.625rem;
+    overflow: hidden;
+    float: left;
+    background-color: #f7f7f7;
+    border-radius: 0.625rem;
+}
+
+.divindexleftheadercontentbox {
+    height: 8.25rem;
+    width: 40.625rem;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+}
+
+.divindexleftheadercontentboximage {
+    height: 8.8125rem;
+    width: 9.125rem;
+    overflow: hidden;
+    float: left;
+    object-fit: cover;
+}
+
+.divindexleftheadercontentboxcontent {
+    padding-top: 0.25rem;
+    height: 8.25rem;
+    width: 28.125rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.85em;
+    line-height: 1.3125rem;
+    margin-left: 1.5625rem;
+}
+
+.divindexleftheadercontentboxcontent a {
+    text-decoration: none;
+}
+
+.divindexleftheadercontentboxcontent a:hover {
+    text-decoration: underline;
+}
+
+.divindexleftindivisual {
+    Height: 9.6875rem;
+    width: 41.25rem;
+    float: left;
+    text-align: left;
+    border-bottom: 0.0625rem solid #efefef;
+    margin-top: 0.75rem;
+}
+
+.divindexleftindivisualheader {
+    Height: 1.875rem;
+    width: 41.25rem;
+    overflow: hidden;
+    float: left;
+    font-family: arial;
+    font-weight: bold;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    color: #5B5B5B;
+    font-size: 1.4em;
+    line-height: 1.875rem;
+    text-indent: 12.5rem;
+}
+
+.divindexleftindivisualimage {
+    Height: 7.6875rem;
+    width: 11.25rem;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.divindexleftindivisualcontent {
+    Height: 7.6875rem;
+    width: 27.5rem;
+    float: left;
+    overflow: hidden;
+    font-size: 0.85em;
+    text-align: left;
+    padding-left: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+.divindexleftindivisualcontent a {
+    display: block;
+    text-decoration: none;
+}
+
+.divindexleftindivisualcontent a:hover {
+    text-decoration: underline;
+}
+
+.rightdivforindex {
+    Height: 42.5rem;
+    width: 18.75rem;
+
+    overflow: hidden;
+}
+
+.divforrightindexindivisual {
+    height: 10.375rem;
+    overflow: hidden;
+    float: left;
+    width: 18.75rem;
+    margin-top: 0.625rem;
+}
+
+.divforrightindexindivisualheader {
+    height: 1.875rem;
+    float: left;
+    overflow: hidden;
+    width: 18.75rem;
+    font-size: 1.4em;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    line-height: 1.875rem;
+    text-align: left;
+    font-weight: bold;
+    color: #5B5B5B;
+}
+
+.divforrightindexindivisualcontent {
+    height: 8.75rem;
+    overflow: hidden;
+    width: 18.75rem;
+    float: left;
+    text-align: left;
+    font-size: 0.85em;
+}
+
+.divforrightindexindivisualcontent a {
+    text-decoration: none;
+}
+
+.divforrightindexindivisualcontent a:hover {
+    text-decoration: underline;
+}
+
+.divforrightindexindivisualcontentimage {
+    margin: 0.25rem;
+    margin-bottom: 0rem;
+    object-fit: cover;
+    height: 5.8125rem;
+    width: 8.5625rem;
+
+}
+
+.divforrightindexindivisualcontent a {
+    color: #5B5B5B;
+    display: block;
+    text-decoration: none;
+}
+
+.divforscroll {
+    Height: 5.25rem;
+    width: 15.625rem;
+    overflow: hidden;
+    float: left;
+    background-color: #efefef;
+    margin-top: 2rem;
+    margin-left: 0.875rem;
+    border-radius: 0.375rem;
+    padding: 0.625rem;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+.divforthreestrips {
+    height: 0.375rem;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.divforthreestripscontent {
+    height: 0.375rem;
+    overflow: hidden;
+    margin: auto;
+    width: 61.25rem;
+}
+
+.divforthreestripscontentindivisual {
+    background-color: #34B9E4;
+    height: 0.375rem;
+    float: left;
+    overflow: hidden;
+    width: 20.3125rem;
+}
+
+.companyfooterfull {
+    height: 5.375rem;
+    width: 100%;
+    float: left;
+    border-top: 0.25rem solid #efeeee;
+}
+
+.companyfooterfullcontent {
+    height: 5.375rem;
+    width: 60.125rem;
+    margin: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.footerdivforcountryaddress {
+    height: 5rem;
+    width: 21.875rem;
+    overflow: hidden;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.footercontactcontent {
+    height: 2.5rem;
+    width: 21.875rem;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    font-size: 0.85em;
+    position: absolute;
+}
+
+.mediahandels {
+    height: 2.5rem;
+    width: 9.375rem;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mediahandelsindivisual {
+    height: 2rem;
+    width: 1.875rem;
+    overflow: hidden;
+    float: left;
+    padding-top: 0.25rem;
+    margin-left: 0.375rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.mediahandelsindivisual img {
+    height: 2rem;
+    width: 1.875rem;
+}
+
+/* .gototoplink{
+    Height: 2.3125rem;
+    width: 2.3125rem;
+    position: fixed;
+    bottom: 0.3125rem;
+    right: 0.625rem;
+    overflow: hidden;
+    z-index: 2;
+    color: White;
+    border-radius: 0.1875rem;
+    font-weight: bold;
+    font-size: 0.85em;
+    font-style: oblique;
+    opacity: 0.85;
+    filter: Alpha(opacity = 85);
+    display: none;
+    text-shadow: 0.0625rem 0.0625rem #000000;
+} */
+
+.compnaybannerotherthanhome {
+    height: 19.3125rem;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.bannertwoinone {
+    height: 17.8125rem;
+    width: 21.875rem;
+    overflow: hidden;
+    float: left;
+    margin-left: 1.25rem;
+    background-color: #efefef;
+    border-radius: 0.3125rem;
+}
+
+.bannertwoinoneindivisual {
+    Height: 8.4375rem;
+    width: 21.25rem;
+    overflow: hidden;
+    float: left;
+    margin-left: 0.3125rem;
+    margin-top: 0.3125rem;
+    border-bottom: 0.0625rem solid #dfdfdf;
+}
+
+.companybannertwoinoneindivisualheader {
+    Height: 1.5rem;
+    width: 21.25rem;
+    overflow: hidden;
+    float: left;
+    color: #5B5B5B;
+    font-weight: bold;
+    text-indent: 7.5rem;
+    font-size: 0.85em;
+    border-bottom: 0.0625rem solid #dfdfdf;
+}
+
+.companybannertwoinoneindivisualheaderimage {
+    Height: 6.25rem;
+    width: 6.875rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.125rem;
+}
+
+.companybannertwoinoneindivisualheaderimage img {
+    border-radius: 0.1875rem;
+}
+
+.companybannertwoinoneindivisualfooter {
+    Height: 6.25rem;
+    width: 13.125rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.125rem;
+    font-size: 0.85em;
+    text-align: left;
+    color: #5B5B5B;
+    padding-left: 0.6875rem;
+}
+
+.companybannerotherthanhomecontent {
+    height: 19.3125rem;
+    overflow: hidden;
+    width: 61.25rem;
+    background-color: White;
+    margin: auto;
+}
+
+.companybanimageotherthanhome {
+    height: 17.8125rem;
+    width: 37.5rem;
+    overflow: hidden;
+    float: left;
+}
+
+.forsitemapcontrol {
+    height: 1.8125rem;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.forsitemapcontrolcontent {
+    height: 1.75rem;
+    width: 61.25rem;
+    margin: auto;
+    overflow: hidden;
+    background-color: White;
+    text-align: left;
+    font-size: 0.85em;
+    font-weight: bold;
+    border-bottom: 0.0625rem solid #efefef;
+}
+
+.sitemappath {
+    color: black;
+}
+
+.divforzencurenews {
+    min-height: 25rem;
+    height: 25rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforzencurenewscontent {
+    min-height: 31.25rem;
+    height: 31.25rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforzencurenewscontentcontent {
+    min-height: 25rem;
+    width: 60rem;
+    float: left;
+    margin-left: 0.625rem;
+    _height: 25rem;
+    display: inline;
+    font-size: 0.90em;
+}
+
+.lefttabs {
+    min-height: 25rem;
+    width: 15rem;
+    float: left;
+    padding-left: 0.1875rem;
+}
+
+.lefttabscontent {
+    border-color: #DFDFDF;
+    border-width: 0.0625rem;
+    border-style: Solid;
+    width: 95%;
+}
+
+.maincontent {
+    min-height: 25rem;
+    width: 43.75rem;
+    float: left;
+    margin-left: 0.3125rem;
+    color: Gray;
+    font-size: 0.95em;
+    text-align: justify;
+}
+
+.divforinnertopics {
+    /* min-height: 25rem; */
+    height: 34.375rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforinnertopicscontent {
+    min-height: 31.25rem;
+    height: 31.25rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforinformationofcompany {
+    min-height: 31.25rem;
+    height: 31.25rem;
+    width: 13.75rem;
+    float: left;
+    border-right: 0.0625rem solid #f4f4f4;
+}
+
+.divforinformationofcompanyindivisual {
+    height: 10rem;
+    width: 13.75rem;
+    float: left;
+    overflow: hidden;
+    border-bottom: 0.0625rem solid #f4f4f4;
+    Margin-top: 0.9375rem;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 8.125rem 5.625rem;
+}
+
+.divforinformationofcompanyindivisualheader {
+    Height: 2.5rem;
+    width: 12.5rem;
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    float: left;
+    color: #27AFE8;
+    font-size: 0.95em;
+    font-family: arial;
+    font-weight: bold;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    font-style: oblique;
+    padding-left: 1.25rem;
+}
+
+.divforinformationofcompanyindivisualcontent {
+    Height: 3.75rem;
+    width: 12.5rem;
+    overflow: hidden;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    font-size: 0.85em;
+    text-align: left;
+    color: #999999;
+    margin-top: 3.125rem;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+    font-size: 0.85em;
+}
+
+.divforinformationofcompanyindivisualcontent a {
+    color: gray;
+    display: block;
+    text-decoration: none;
+}
+
+.divforinformationofcompanyindivisualcontent a:hover {
+    text-decoration: underline;
+}
+
+.divforsubmaster {
+    min-height: 31.25rem;
+    height: 31.25rem;
+    width: 43.125rem;
+    margin-left: 1.875rem;
+    float: left;
+    text-align: justify;
+}
+
+.divforsubmastercontent {
+    min-height: 31.25rem;
+    height: 31.25rem;
+    float: left;
+    width: 44.375rem;
+}
+
+.divforsubmastercontentheader {
+    height: 1.875rem;
+    width: 44.375rem;
+    float: left;
+    font-size: 1.2em;
+    border-bottom: 0.0625rem solid #dfdfdf;
+    line-height: 0rem;
+    text-transform: uppercase;
+    color: #27AFE8;
+    text-indent: 0.3125rem;
+    text-align: left;
+}
+
+.divforsubmastercontentcontent1 {
+
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+
+    padding-top: 0.375rem;
+}
+
+.divforsubmastercontentcontent {
+    min-height: 30rem;
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+    margin-bottom: 0.375rem;
+    padding-top: 0.375rem;
+}
+
+.divforsubmastercontentcontent2 {
+    min-height: 30rem;
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+    margin-bottom: 0.375rem;
+}
+
+.divforsubmaster_marketing {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 43.125rem;
+    margin-left: 1.875rem;
+    float: left;
+    text-align: justify;
+}
+
+.divforsubmastercontent_marketing {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    float: left;
+    width: 44.375rem;
+}
+
+.divforsubmastercontentheader_marketing {
+    height: 1.875rem;
+    width: 44.375rem;
+    float: left;
+    font-size: 1.2em;
+    border-bottom: 0.0625rem solid #dfdfdf;
+
+    text-transform: uppercase;
+    color: #27AFE8;
+    text-indent: 0.3125rem;
+    text-align: left;
+}
+
+.divforsubmastercontentcontent_marketing {
+    min-height: 30rem;
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+    margin-bottom: 0.375rem;
+    padding-top: 0.375rem;
+}
+
+.InnerPageHeader {
+    font-size: 1.4em;
+    width: 41.875rem;
+    border-bottom: 0.0625rem solid #f4f4f4;
+    display: block;
+    height: 2.5rem;
+    line-height: 2.9375rem;
+    margin-bottom: 0.9375rem;
+    text-shadow: 0.0625rem 0.0625rem #dfdfdf;
+}
+
+.divforinnertopics_marketing {
+    min-height: 25rem;
+    _height: 25rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforinnertopicscontent_marketing {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforinnertopics_mission {
+    min-height: 25rem;
+    _height: 25rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforinnertopicscontent_mission {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforsubmaster_mission {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 43.125rem;
+    margin-left: 1.875rem;
+    float: left;
+    text-align: justify;
+}
+
+.divforsubmastercontent_mission {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    float: left;
+    width: 44.375rem;
+}
+
+.divforsubmastercontentheader_mission {
+    height: 1.875rem;
+    width: 44.375rem;
+    float: left;
+    font-size: 1.2em;
+    border-bottom: 0.0625rem solid #dfdfdf;
+
+    text-transform: uppercase;
+    color: #27AFE8;
+    text-indent: 0.3125rem;
+    text-align: left;
+}
+
+.divforsubmastercontentcontent_mission {
+    min-height: 30rem;
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+    margin-bottom: 0.375rem;
+    padding-top: 0.375rem;
+}
+
+.divforinnertopics_profiles {
+    min-height: 25rem;
+    _height: 25rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforinnertopicscontent_profiles {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforsubmaster_profiles {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    width: 43.125rem;
+    margin-left: 1.875rem;
+    float: left;
+    text-align: justify;
+}
+
+.divforsubmastercontent_profiles {
+    min-height: 31.25rem;
+    _height: 31.25rem;
+    float: left;
+    width: 44.375rem;
+}
+
+.divforsubmastercontentheader_profiles {
+    height: 1.875rem;
+    width: 44.375rem;
+    float: left;
+    font-size: 1.2em;
+    border-bottom: 0.0625rem solid #dfdfdf;
+
+    text-transform: uppercase;
+    color: #27AFE8;
+    text-indent: 0.3125rem;
+    text-align: left;
+}
+
+.divforsubmastercontentcontent_profiles {
+    min-height: 30rem;
+    _height: 30rem;
+    float: left;
+    width: 43.125rem;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4375rem;
+    margin-left: 0.75rem;
+    display: inline;
+    margin-bottom: 0.375rem;
+    padding-top: 0.375rem;
+}
+
+.gototoplink {
+    position: fixed;
+    width: 3.125rem;
+    height: 3.125rem;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3.125rem;
+    color: white;
+    font-size: 1.375rem;
+    background-image: url(./toparrow.png);
+    background-size: cover;
+}
+
+
+.customers th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.625rem;
+    background-color: #27AFE8;
+    color: #ffffff;
+}
+
+.divforinnertopics_products {
+    min-height: 25rem;
+    _height: 55.625rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+.divforinnertopicscontent_products {
+    min-height: 31.25rem;
+    height: 104.125rem;
+    width: 61.25rem;
+    margin: auto;
+    background-color: White;
+}
+
+.divforsubmaster_products {
+    min-height: 62.5rem;
+    _height: 31.25rem;
+    width: 75vw;
+    margin: 0 10rem;
+    float: left;
+    text-align: justify;
+}
+
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+
+    .bannerthreeinoneindivisual {
+        height: 8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+    .bannerthreeinoneindivisual{
+        height: 7.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 7px;
+    }
+}
